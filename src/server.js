@@ -1,6 +1,6 @@
-import { Database } from './middlewares/database.js'
-import { json } from './middlewares/json.js'
 import http from 'node:http'
+import { Database } from './database.js'
+import { json } from './middlewares/json.js'
 
 // - Criar usúarios
 // - Listagem usúarios
